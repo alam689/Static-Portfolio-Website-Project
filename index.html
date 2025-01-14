@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="left">
+            <a href="/">My Portfolio</a>
+        </div>
+        <div class="right">
+            <a href="#skills" class="active">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+            </a>
+            <a href="#projects">
+                <i class="fa-solid fa-pen"></i>
+                <span>Projects</span>
+            </a>
+            <a href="#contact">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Contact</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Khorshed.</h2>
+                <p>Experienced ERP developer with over 15 years of experience in the industry. Proven ability to design, develop, and customize ERP systems to meet the needs of businesses of all sizes. Strong understanding of business processes and the ability to translate those requirements into technical specifications. Expertise in data analysis and business intelligence.</p>
+
+                <div class="links">
+                    <a href="https://github.com/alam689" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <span>https://github.com/alam689</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/khorshed-alam-90b74624" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>www.linkedin.com/in/khorshed-alam-90b74624</span>
+                    </a>
+                    <a href="mailto:alam689@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>alam689@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/profile.jpg" alt="hero headshot">
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, eaque, minima atque inventore quis aspernatur saepe hic assumenda reprehenderit ipsam dicta ut suscipit cum odio minus rem! Nam, nihil ducimus.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-icon.png" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="images/css-icon.png" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="images/js-icon.png" alt="js logo">
+                    <span>Javascript</span>
+                </div>
+                <div class="cell">
+                    <img src="images/react-icon.png" alt="react logo">
+                    <span>ReactJS</span>
+                </div>
+                <div class="cell">
+                    <img src="images/python-icon.png" alt="Python logo">
+                    <span>Python</span>
+                </div>
+                <div class="cell">
+                    <img src="images/relational-icon.png" alt="Relational Database logo">
+                    <span>Relational Database</span>
+                </div>
+                <div class="cell">
+                    <img src="images/dbadmin-icon.png" alt="DBadmin logo">
+                    <span>Database Administration</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Simple-Resume-Template-Design-using-HTML</h3>
+                <p>A Simple Resume Template using HTML is a basic structure for creating a digital resume. It typically includes sections for personal information, a career summary, education, work experience, skills, and contact details. It's easy to customize and uses minimal HTML, often enhanced with CSS for styling.</p>
+                <a href="https://github.com/alam689/myresume">View Code</a><br/>
+                <a href="https://alam689.github.io/Simple-Resume-Template-Design-using-HTML/resume.html">Live Demo</a>
+            </div>
+            <div class="project">
+                <h3>Quiz-App-Database-Design</h3>
+                <p>A Quiz App Database Design is a structured layout of data storage that manages information for a quiz application. It organizes data related to users, quizzes, questions, answers, and results. This design ensures seamless user interactions, efficient data retrieval, and accurate tracking of quiz performance.</p>
+                <a href="https://github.com/alam689/Quiz-App-Database-Design">View Code</a>
+            </div>
+            <!-- Repeat for more projects -->
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloremque neque magni sed quisquam distinctio. Corporis quasi magni laudantium! Totam nostrum dolorem veniam. Minima recusandae laudantium ullam nihil nemo dolores quasi corporis inventore, sed, adipisci maiores cum explicabo earum eligendi eaque itaque qui tenetur quos sapiente dicta quis ratione assumenda.
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Md Khorshed Alam">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="alam689@gmail.com">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 My Portfolio. All Rights Reserved</p>
+        </footer>
+    </main>
+</body>
+
+</html>
